@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'android';
+    src: url('__MACOSX/fontes/._idroid.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #c5ebd6;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 1px 1px 9px;
+    width: 83%;
+    padding: 12px;
+    margin: auto;
+    text-align: center;
+}
+
+h1#interno {
+    font-family: 'droid', Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: rgb(5, 105, 5);
+}
+
+header#cabecalho {
+    background-color: rgb(5, 133, 5);
+    background-image: linear-gradient(to bottom, green red);
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'android', Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 3px;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav {
+    background-color: rgb(0, 110, 0);
+    padding: 3px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+nav > a:hover {
+    color: greenyellow;
+
+}
+
+p#abaixo {
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'droid', Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    color: rgb(5, 105, 5);
+}
+
+h3 {
+    text-align: left;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(24, 189, 109);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 27px;
+}
+
+strong {
+    color: rgb(7, 161, 23);
+}
+
+a {
+    color: green;
+    
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+p#cima {
+    text-align: center;
+}
+
+div.video {
+   
+    background-color: green;
+    width: 100%;
+}
+
+section.extra {
+    background-color: rgba(63, 208, 123, 0.562);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(5, 62, 5, 0.866);
+    padding: 2px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
