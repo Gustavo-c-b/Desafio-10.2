@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('/DESAFIOS/d10.2/fontes/idroid.otf');
+    src: url("/Programacao/Html/desafios/d10.2/fontes/idroid.otf");
     font-weight: normal;
 }
 
@@ -40,7 +40,7 @@ header {
     background-color: var(--cor4);
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding-bottom: 4px;
 }
 
 header > h1 {
